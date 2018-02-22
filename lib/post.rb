@@ -11,6 +11,5 @@ class Post
     else post.author.name
     end
   end
-        
-  
+
 end
