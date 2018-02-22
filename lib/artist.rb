@@ -15,6 +15,7 @@ end
 def add_song (song)
   @songs << song
   song.artist = self
+  @@songs_count << song
 end
 
 def add_song_by_name (song_name)
